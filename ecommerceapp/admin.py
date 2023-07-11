@@ -1,5 +1,5 @@
 from django.contrib import admin
-#from .models import products,order
+from .models import products,order
 # Register your models here.
 admin.site.site_header= "E-commerce Site"
 admin.site.site_title ="ABC Shopping"
@@ -15,5 +15,5 @@ class orderAdmin(admin.ModelAdmin):
     list_editable = ('items',)
 
 
-#admin.site.register(products,ProductAdmin)
-#admin.site.register(order,orderAdmin)
+admin.site.register(products,ProductAdmin)
+admin.site.register(order,orderAdmin)
