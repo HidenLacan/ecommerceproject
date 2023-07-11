@@ -27,7 +27,7 @@ SECRET_KEY = 'oz4u67t97w^w4=$z2d@ly@izhp+_d-569v$tgth+lo#hq8%%f% '
 #DEBUG = os.environ.get("DEBUG","False").lower() == "true"
 DEBUG = True
 #ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
